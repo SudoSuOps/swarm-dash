@@ -1,6 +1,0 @@
-{"event": "run_started", "run_id": "29f4dbf7-83a0-4ff3-b6f1-6f1309556da8", "mode": "lease", "model": "gemma4:latest", "prompt": "Read the uploaded PDF and respond in this exact format:\r\n\r\nDOCUMENT DETECTED:\r\nFILENAME:\r\nTOP 5 LEASE FACTS:\r\nROLLOVER RISKS:\r\nMISSING DATA:\r\nSTATUS:"}
-{"event": "prompt_prepared", "run_id": "29f4dbf7-83a0-4ff3-b6f1-6f1309556da8", "system_prompt": "You are operating in Lease Lane. Focus on lease abstraction, rent roll normalization, rollover risk, tenant terms, and structured extraction."}
-{"event": "ollama_request_started", "run_id": "29f4dbf7-83a0-4ff3-b6f1-6f1309556da8", "model": "gemma4:latest"}
-{"event": "ollama_response_received", "run_id": "29f4dbf7-83a0-4ff3-b6f1-6f1309556da8", "response_preview": "Please upload the PDF document you would like me to analyze. I am ready to perform structured abstraction on the lease data, focusing on rent roll normalization, rollover risk, and key tenant terms, once the file is available.\n\n***\n\n**(Once the document is uploaded, I will populate the fields below."}
-{"event": "receipt_written", "run_id": "29f4dbf7-83a0-4ff3-b6f1-6f1309556da8", "receipt_path": "data/receipts/29f4dbf7-83a0-4ff3-b6f1-6f1309556da8.json"}
-{"event": "run_completed", "run_id": "29f4dbf7-83a0-4ff3-b6f1-6f1309556da8", "status": "success"}

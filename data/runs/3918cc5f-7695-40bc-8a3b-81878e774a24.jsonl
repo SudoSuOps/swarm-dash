@@ -1,9 +1,0 @@
-{"event": "run_started", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "mode": "lease", "model": "gemma4:latest", "prompt": "Read the uploaded PDF and respond in this exact format:\r\n\r\nDOCUMENT DETECTED:\r\nFILENAME:\r\nEXTRACTED CONTENT PRESENT:\r\nTOP 3 LEASE FACTS:\r\nSTATUS:"}
-{"event": "prompt_prepared", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "system_prompt": "You are operating in Lease Lane. Focus on lease abstraction, rent roll normalization, rollover risk, tenant terms, and structured extraction."}
-{"event": "file_uploaded", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "filename": "sample_commercial_lease_Q3_2024.pdf", "path": "data/uploads/3918cc5f-7695-40bc-8a3b-81878e774a24_sample_commercial_lease_Q3_2024.pdf", "bytes": 6869}
-{"event": "pdf_extracted", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "filename": "sample_commercial_lease_Q3_2024.pdf", "extracted_chars": 5035}
-{"event": "document_context_attached", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "filename": "sample_commercial_lease_Q3_2024.pdf"}
-{"event": "ollama_request_started", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "model": "gemma4:latest"}
-{"event": "ollama_response_received", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "response_preview": "DOCUMENT DETECTED:\nFILENAME: sample_commercial_lease_Q3_2024.pdf\nEXTRACTED CONTENT PRESENT: Yes. Detailed lease abstraction data, including initial terms, NNN obligations, and renewal details, were successfully extracted.\nTOP 3 LEASE FACTS:\n1. **Lease Structure & Financials:** This is a Triple Net ("}
-{"event": "receipt_written", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "receipt_path": "data/receipts/3918cc5f-7695-40bc-8a3b-81878e774a24.json"}
-{"event": "run_completed", "run_id": "3918cc5f-7695-40bc-8a3b-81878e774a24", "status": "success"}

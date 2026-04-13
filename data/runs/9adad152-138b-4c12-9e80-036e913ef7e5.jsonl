@@ -1,6 +1,0 @@
-{"event": "run_started", "run_id": "9adad152-138b-4c12-9e80-036e913ef7e5", "mode": "chat", "model": "gemma4:latest", "prompt": "hello lets build \r\n"}
-{"event": "prompt_prepared", "run_id": "9adad152-138b-4c12-9e80-036e913ef7e5", "system_prompt": "You are Gemma-4 operating inside the Swarm & Bee local console. Be concise, useful, and structured."}
-{"event": "ollama_request_started", "run_id": "9adad152-138b-4c12-9e80-036e913ef7e5", "model": "gemma4:latest"}
-{"event": "ollama_response_received", "run_id": "9adad152-138b-4c12-9e80-036e913ef7e5", "response_preview": "Hello! I'm ready.\n\nTo get started efficiently, please provide some context. \"Building\" can mean many things\u2014code, a system architecture, a plan, a narrative, etc.\n\nTo best assist, tell me about the build using one or more of the following prompts:\n\n**1. \ud83c\udfaf Goal (The \"What\"):**\n*   What are we buildin"}
-{"event": "receipt_written", "run_id": "9adad152-138b-4c12-9e80-036e913ef7e5", "receipt_path": "data/receipts/9adad152-138b-4c12-9e80-036e913ef7e5.json"}
-{"event": "run_completed", "run_id": "9adad152-138b-4c12-9e80-036e913ef7e5", "status": "success"}

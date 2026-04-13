@@ -1,0 +1,16 @@
+{
+  "receipt_id": "3918cc5f-7695-40bc-8a3b-81878e774a24",
+  "model": "gemma4:latest",
+  "mode": "lease",
+  "prompt": "Read the uploaded PDF and respond in this exact format:\r\n\r\nDOCUMENT DETECTED:\r\nFILENAME:\r\nEXTRACTED CONTENT PRESENT:\r\nTOP 3 LEASE FACTS:\r\nSTATUS:",
+  "status": "success",
+  "response_preview": "DOCUMENT DETECTED:\nFILENAME: sample_commercial_lease_Q3_2024.pdf\nEXTRACTED CONTENT PRESENT: Yes. Detailed lease abstraction data, including initial terms, NNN obligations, and renewal details, were successfully extracted.\nTOP 3 LEASE FACTS:\n1. **Lease Structure & Financials:** This is a Triple Net (NNN) lease where the Tenant is responsible for 100% of ad valorem real estate taxes, special assessments, and operating expenses.\n2. **Term & Rollover Risk:** The initial term is 3 years (October 1, 2",
+  "uploaded_filename": "sample_commercial_lease_Q3_2024.pdf",
+  "uploaded_file_path": "data/uploads/3918cc5f-7695-40bc-8a3b-81878e774a24_sample_commercial_lease_Q3_2024.pdf",
+  "extracted_chars": 5035,
+  "created_at": "2026-04-13T18:35:12.057716+00:00",
+  "artifacts": [
+    "data/runs/3918cc5f-7695-40bc-8a3b-81878e774a24.jsonl",
+    "data/uploads/3918cc5f-7695-40bc-8a3b-81878e774a24_sample_commercial_lease_Q3_2024.pdf"
+  ]
+}

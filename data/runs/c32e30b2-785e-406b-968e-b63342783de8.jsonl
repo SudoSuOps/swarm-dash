@@ -1,0 +1,6 @@
+{"event": "run_started", "run_id": "c32e30b2-785e-406b-968e-b63342783de8", "mode": "chat", "model": "gemma-4", "prompt": "gm dev \r\n"}
+{"event": "prompt_prepared", "run_id": "c32e30b2-785e-406b-968e-b63342783de8", "system_prompt": "You are Gemma-4 operating inside the Swarm & Bee local console. Be concise, useful, and structured."}
+{"event": "ollama_request_started", "run_id": "c32e30b2-785e-406b-968e-b63342783de8", "model": "gemma-4"}
+{"event": "run_failed", "run_id": "c32e30b2-785e-406b-968e-b63342783de8", "error": "Client error '404 Not Found' for url 'http://127.0.0.1:11434/api/chat'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"}
+{"event": "receipt_written", "run_id": "c32e30b2-785e-406b-968e-b63342783de8", "receipt_path": "data/receipts/c32e30b2-785e-406b-968e-b63342783de8.json"}
+{"event": "run_finished_with_error", "run_id": "c32e30b2-785e-406b-968e-b63342783de8", "status": "failed"}

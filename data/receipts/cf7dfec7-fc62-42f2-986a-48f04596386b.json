@@ -1,0 +1,12 @@
+{
+  "receipt_id": "cf7dfec7-fc62-42f2-986a-48f04596386b",
+  "model": "gemma4:latest",
+  "mode": "lease",
+  "prompt": "You are running in Lease Lane inside the Swarm & Bee local dashboard.\r\n\r\nRead the uploaded document and respond in this exact format:\r\n\r\nDOCUMENT DETECTED:\r\nDOCUMENT TYPE:\r\nTOP 5 LEASE FACTS:\r\nROLLOVER RISKS:\r\nMISSING DATA:\r\nSTATUS:\r\n\r\nRules:\r\n- If the uploaded document is available, say DOCUMENT DETECTED: YES\r\n- If not, say DOCUMENT DETECTED: NO\r\n- Keep the output structured and concise\r\n- End with STATUS: PASS or STATUS: FAIL",
+  "status": "success",
+  "response_preview": "DOCUMENT DETECTED: NO\nDOCUMENT TYPE: N/A (No document uploaded for abstraction)\nTOP 5 LEASE FACTS: N/A\nROLLOVER RISKS: N/A\nMISSING DATA: The source document required for analysis is missing.\nSTATUS: FAIL",
+  "created_at": "2026-04-13T18:00:07.130130+00:00",
+  "artifacts": [
+    "data/runs/cf7dfec7-fc62-42f2-986a-48f04596386b.jsonl"
+  ]
+}

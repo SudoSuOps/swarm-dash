@@ -1,0 +1,16 @@
+{
+  "receipt_id": "9139c40c-d569-48ca-90e1-ccec082917db",
+  "model": "gemma4:latest",
+  "mode": "lease",
+  "prompt": "Read the uploaded PDF and respond in this exact format:\r\n\r\nDOCUMENT DETECTED:\r\nFILENAME:\r\nTOP 5 LEASE FACTS:\r\nROLLOVER RISKS:\r\nMISSING DATA:\r\nSTATUS:",
+  "status": "success",
+  "response_preview": "DOCUMENT DETECTED: Yes\nFILENAME: sample_commercial_lease_Q3_2024.pdf\nTOP 5 LEASE FACTS:\n1. **Premises/Parties:** Atlantic Industrial Services, Inc. leases Suite 300 (~12,480 RSF) at 1450 Commerce Park Drive.\n2. **Term Structure:** Initial term is 4 years, 6 months (Oct 1, 2024 \u2013 Mar 31, 2028).\n3. **Financials:** Base Rent Year 1 is $18.50/RSF/Year, escalating by 3.0% annually on each anniversary.\n4. **Lease Type:** Triple Net (NNN) structure; Tenant is responsible for 100% of ad valorem taxes, a",
+  "uploaded_filename": "sample_commercial_lease_Q3_2024.pdf",
+  "uploaded_file_path": "data/uploads/9139c40c-d569-48ca-90e1-ccec082917db_sample_commercial_lease_Q3_2024.pdf",
+  "extracted_chars": 5035,
+  "created_at": "2026-04-13T18:34:35.198550+00:00",
+  "artifacts": [
+    "data/runs/9139c40c-d569-48ca-90e1-ccec082917db.jsonl",
+    "data/uploads/9139c40c-d569-48ca-90e1-ccec082917db_sample_commercial_lease_Q3_2024.pdf"
+  ]
+}

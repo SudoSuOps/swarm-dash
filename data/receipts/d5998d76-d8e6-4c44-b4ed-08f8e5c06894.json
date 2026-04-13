@@ -1,0 +1,12 @@
+{
+  "receipt_id": "d5998d76-d8e6-4c44-b4ed-08f8e5c06894",
+  "model": "gemma4:latest",
+  "mode": "lease",
+  "prompt": "You are running inside the Swarm & Bee local dashboard.\r\n\r\nIdentify the active lane for this run and respond in this exact format:\r\n\r\nACTIVE LANE:\r\nLANE PURPOSE:\r\nEXPECTED OUTPUT STYLE:\r\nDOCUMENT CONTEXT:\r\nSTATUS:\r\n\r\nRules:\r\n- If the lane is Lease Lane, explicitly say \"Lease Lane\"\r\n- If no uploaded document is present, say \"DOCUMENT CONTEXT: NONE\"\r\n- Keep the answer short and structured\r\n- End with STATUS: PASS or STATUS: FAIL\r\n",
+  "status": "success",
+  "response_preview": "ACTIVE LANE: Lease Lane\nLANE PURPOSE: Lease abstraction, rent roll normalization, rollover risk assessment, tenant terms extraction, and structured data extraction.\nEXPECTED OUTPUT STYLE: Highly structured, quantitative, and analytical summaries derived from lease documents.\nDOCUMENT CONTEXT: NONE\nSTATUS: PASS",
+  "created_at": "2026-04-13T17:57:53.330315+00:00",
+  "artifacts": [
+    "data/runs/d5998d76-d8e6-4c44-b4ed-08f8e5c06894.jsonl"
+  ]
+}

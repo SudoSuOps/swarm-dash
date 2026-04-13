@@ -1,0 +1,16 @@
+{
+  "receipt_id": "6a684598-7032-49b9-b9ce-70da5ab05fce",
+  "model": "gemma4:latest",
+  "mode": "lease",
+  "prompt": "Using only the uploaded lease document, extract the following in strict JSON:\r\n\r\n{\r\n  \"lease_type\": \"\",\r\n  \"commencement_date\": \"\",\r\n  \"expiration_date\": \"\",\r\n  \"renewal_options\": \"\",\r\n  \"base_rent_year_1\": \"\",\r\n  \"annual_escalation\": \"\",\r\n  \"tenant_tax_obligation\": \"\",\r\n  \"insurance_covenant\": \"\",\r\n  \"top_rollover_risk\": \"\"\r\n}",
+  "status": "success",
+  "response_preview": "```json\n{\n  \"lease_type\": \"Triple Net (NNN)\",\n  \"commencement_date\": \"October 1, 2024\",\n  \"expiration_date\": \"March 31, 2028\",\n  \"renewal_options\": \"One option to renew for an additional three-year term, exercisable only by written notice delivered not less than nine months prior to the expiration of the initial term.\",\n  \"base_rent_year_1\": \"$18.50 per rentable square foot annually\",\n  \"annual_escalation\": \"3.0% each anniversary\",\n  \"tenant_tax_obligation\": \"Tenant shall reimburse Landlord for ",
+  "uploaded_filename": "sample_commercial_lease_Q3_2024.pdf",
+  "uploaded_file_path": "data/uploads/6a684598-7032-49b9-b9ce-70da5ab05fce_sample_commercial_lease_Q3_2024.pdf",
+  "extracted_chars": 5035,
+  "created_at": "2026-04-13T18:39:16.342878+00:00",
+  "artifacts": [
+    "data/runs/6a684598-7032-49b9-b9ce-70da5ab05fce.jsonl",
+    "data/uploads/6a684598-7032-49b9-b9ce-70da5ab05fce_sample_commercial_lease_Q3_2024.pdf"
+  ]
+}

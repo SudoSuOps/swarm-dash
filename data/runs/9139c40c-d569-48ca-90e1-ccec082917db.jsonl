@@ -1,0 +1,9 @@
+{"event": "run_started", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "mode": "lease", "model": "gemma4:latest", "prompt": "Read the uploaded PDF and respond in this exact format:\r\n\r\nDOCUMENT DETECTED:\r\nFILENAME:\r\nTOP 5 LEASE FACTS:\r\nROLLOVER RISKS:\r\nMISSING DATA:\r\nSTATUS:"}
+{"event": "prompt_prepared", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "system_prompt": "You are operating in Lease Lane. Focus on lease abstraction, rent roll normalization, rollover risk, tenant terms, and structured extraction."}
+{"event": "file_uploaded", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "filename": "sample_commercial_lease_Q3_2024.pdf", "path": "data/uploads/9139c40c-d569-48ca-90e1-ccec082917db_sample_commercial_lease_Q3_2024.pdf", "bytes": 6869}
+{"event": "pdf_extracted", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "filename": "sample_commercial_lease_Q3_2024.pdf", "extracted_chars": 5035}
+{"event": "document_context_attached", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "filename": "sample_commercial_lease_Q3_2024.pdf"}
+{"event": "ollama_request_started", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "model": "gemma4:latest"}
+{"event": "ollama_response_received", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "response_preview": "DOCUMENT DETECTED: Yes\nFILENAME: sample_commercial_lease_Q3_2024.pdf\nTOP 5 LEASE FACTS:\n1. **Premises/Parties:** Atlantic Industrial Services, Inc. leases Suite 300 (~12,480 RSF) at 1450 Commerce Park Drive.\n2. **Term Structure:** Initial term is 4 years, 6 months (Oct 1, 2024 – Mar 31, 2028).\n3. **"}
+{"event": "receipt_written", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "receipt_path": "data/receipts/9139c40c-d569-48ca-90e1-ccec082917db.json"}
+{"event": "run_completed", "run_id": "9139c40c-d569-48ca-90e1-ccec082917db", "status": "success"}
